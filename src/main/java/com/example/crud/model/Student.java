@@ -6,7 +6,6 @@ import javax.persistence.*;
 @Table(name = "crudtable")
 public class Student {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int studentid;
